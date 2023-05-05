@@ -16,7 +16,7 @@ int main() {
     cout<<"enter 1 for addition"<<endl;
     cout<<"enter 2 for subtraction"<<endl;
     cout<<"enter 3 for multiplication"<<endl;
-    cout<<"enter 4 for multiplication"<<endl;
+    cout<<"enter 4 for division"<<endl;
     
    
     int option;
@@ -32,6 +32,9 @@ int main() {
     case 3:cout<<a << "*" <<b <<" = " << a*b ;
     break;
     case 4:cout<<a << "/" <<b <<" = " << a/b ;
+    break;
+    default:
+    cout<<"invalid command entered ";
 }
     return 0;
 }
