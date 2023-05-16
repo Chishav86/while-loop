@@ -2,39 +2,18 @@
 using namespace std;
 
 int main() {
-    float a,b;
-    int num = 1;
-    num= num*5;
-   
-    num *= 5;
+  int n,i,val;
 
-    cout<<"enter your number :";
-    cin>>a;
-    cout<<"enter your next number :";
-    cin>>b;
-  
-    cout<<"enter 1 for addition"<<endl;
-    cout<<"enter 2 for subtraction"<<endl;
-    cout<<"enter 3 for multiplication"<<endl;
-    cout<<"enter 4 for division"<<endl;
-    
-   
-    int option;
-    cin>> option;
+  cout<<" enter the value "<<endl;
+  cin>>n;
 
-    switch(option)
-    {
-            
-    case 1:cout<<a << "+" <<b<<" = "<< a+b ;
-    break;
-    case 2:cout<<a << "-" <<b <<" = " << a-b ;
-    break;
-    case 3:cout<<a << "*" <<b <<" = " << a*b ;
-    break;
-    case 4:cout<<a << "/" <<b <<" = " << a/b ;
-    break;
-    default:
-    cout<<"invalid command entered ";
+  i=0; val=0;
+  while(i<n){
+    cout<<val<<endl;
+    val+=2;
+    i++;
+  }
+   
+   return 0;
 }
-    return 0;
-}
+
